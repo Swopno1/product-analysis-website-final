@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <div>
-      <h1>Welcome my review site!</h1>
+      <Nav></Nav>
     </div>
   );
 }
