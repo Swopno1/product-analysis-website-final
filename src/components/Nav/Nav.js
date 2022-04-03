@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const navItems = [
   {
@@ -33,15 +34,15 @@ const Nav = () => {
     <nav>
       <ul>
         {navItems.map((item) => (
-          <Li text={item.text} key={item.id}></Li>
+          <Li path={item.path} text={item.text} key={item.id}></Li>
         ))}
       </ul>
     </nav>
   );
 };
 
-const Li = ({ text }) => {
-  return <li>{text}</li>;
+const Li = ({ path, text }) => {
+  return <Link to={path}>{text}</Link>;
 };
 
 export default Nav;
