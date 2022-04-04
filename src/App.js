@@ -11,7 +11,7 @@ import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home></Home>} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const navItems = [
   {
@@ -31,8 +31,8 @@ const navItems = [
 
 const Nav = () => {
   return (
-    <nav>
-      <ul>
+    <nav className="container mx-auto">
+      <ul className="my-6 items-center justify-center font-semibold md:flex">
         {navItems.map((item) => (
           <Li path={item.path} text={item.text} key={item.id}></Li>
         ))}
@@ -42,7 +42,20 @@ const Nav = () => {
 };
 
 const Li = ({ path, text }) => {
-  return <Link to={path}>{text}</Link>;
+  return (
+    <li>
+      <NavLink
+        to={path}
+        className={({ isActive }) =>
+          isActive
+            ? "text-cyan-900 px-6 py-2 rounded hover:font-bold underline underline-offset-4 decoration-2 decoration-active bg-amber-200"
+            : "text-cyan-900 px-6 py-2 rounded hover:font-bold hover:underline underline-offset-4 decoration-2 decoration-amber-500 hover:bg-amber-100"
+        }
+      >
+        {text}
+      </NavLink>
+    </li>
+  );
 };
 
 export default Nav;
