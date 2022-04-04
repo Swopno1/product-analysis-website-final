@@ -1,11 +1,10 @@
 import React from "react";
-import "./Card.css";
 
 const Card = ({ review }) => {
   const { img, post, rating, user } = review;
 
   return (
-    <blockquote className="border rounded-xl shadow h-64 p-3">
+    <blockquote className="border rounded-xl shadow h-64 p-3 my-3">
       <div className="flex items-center pb-3">
         <img className="w-12 h-12 rounded-full" src={img} alt="user image" />
         <div className="ml-3">

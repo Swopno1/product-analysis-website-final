@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useReviews from "../../hooks/useReviews";
 import Card from "../Card/Card";
 
 const Home = () => {
-  const [reviews, setReviews] = useState([]);
+  const [reviews] = useReviews([]);
 
-  useEffect(() => {
-    fetch("reviews.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
-
-  const showInHome = reviews.slice(0, 3);
+  const showInHome = reviews.length > 3 ? reviews.slice(0, 3) : reviews;
 
   return (
     <>
@@ -39,7 +33,7 @@ const Home = () => {
         <h1 className="text-3xl text-cyan-900 font-semibold text-center p-6">
           User's Reviews
         </h1>
-        <div className="my-6 md:grid grid-cols-3 gap-6 mb-12">
+        <div className="my-6 mx-3 md:grid grid-cols-3 gap-6 mb-12">
           {showInHome.map((review) => (
             <Card key={review.id} review={review}></Card>
           ))}
