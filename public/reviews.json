@@ -3,36 +3,42 @@
     "id": 1,
     "user": "Glenna Reichert",
     "img": "https://via.placeholder.com/150/b0f7cc",
-    "post": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    "post": "Laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium",
+    "rating": 4.75
   },
   {
     "id": 2,
     "user": "Kurtis Weissnat",
     "img": "https://via.placeholder.com/150/54176f",
-    "post": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    "post": "Est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et",
+    "rating": 5.0
   },
   {
     "id": 3,
     "user": "Chelsey Dietrich",
     "img": "https://via.placeholder.com/150/51aa97",
-    "post": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "post": "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    "rating": 4.95
   },
   {
     "id": 4,
     "user": "Clementina DuBuque",
     "img": "tps://via.placeholder.com/150/54176f",
-    "post": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    "post": "Quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione",
+    "rating": 4.0
   },
   {
     "id": 5,
     "user": "Clementine Bauch",
     "img": "https://via.placeholder.com/150/810b14",
-    "post": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+    "post": "Harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et",
+    "rating": 5.0
   },
   {
     "id": 6,
     "user": "Ervin Howell",
     "img": "https://via.placeholder.com/150/1ee8a4",
-    "post": "non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    "post": "Non et atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati",
+    "rating": 4.5
   }
 ]
