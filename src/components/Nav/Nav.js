@@ -48,7 +48,7 @@ const Li = ({ path, text }) => {
         to={path}
         className={({ isActive }) =>
           isActive
-            ? "text-cyan-900 px-6 py-2 rounded hover:font-bold underline underline-offset-4 decoration-2 decoration-active bg-amber-200"
+            ? "text-cyan-900 px-6 py-2 rounded hover:font-bold underline underline-offset-4 decoration-2 decoration-active "
             : "text-cyan-900 px-6 py-2 rounded hover:font-bold hover:underline underline-offset-4 decoration-2 decoration-amber-500 hover:bg-amber-100"
         }
       >
